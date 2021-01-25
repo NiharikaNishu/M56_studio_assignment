@@ -1,0 +1,11 @@
+The test cases for the given problem statement are : 
+
+1) Tournament_run array is empty.
+   (In this case David will always rank 1)
+
+2) David array is empty.
+   (In this case there will be no output)
+   
+3) Tournament_run array may be identical values.
+   (It has been handled by taking a temp vector which stores unique values.)
+   
