@@ -2,10 +2,24 @@ The test cases for the given problem statement are :
 
 1) Tournament_run array is empty.
    (In this case David will always rank 1)
+   SAMPLE INPUT : 0 4
+                  5 25 50 120
+            
+   SAMPLE OUTPUT: 1 1 1 1 
 
 2) David array is empty.
    (In this case there will be no output)
+   SAMPLE INPUT : 4 0
+                  5 25 50 120
+            
+   SAMPLE OUTPUT:  
    
 3) Tournament_run array may be identical values.
    (It has been handled by taking a temp vector which stores unique values.)
+   
+   SAMPLE INPUT : 7 4
+                  100 100 50 40 40 20 10
+                  5 25 50 120
+            
+   SAMPLE OUTPUT: 6 4 2 1 
    
